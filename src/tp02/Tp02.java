@@ -54,10 +54,10 @@ public class Tp02 {
                 System.out.println("Bien joué ! Tu as " + rep + " tentatives.");
             }
             if (rep > 10){               
-                System.out.println("T'es tarpin nul ! C'était " + n);
+                System.out.println("T'es grave nul ! C'était " + n);
                 break;
             }
-            if (rep >= 6 && rep <= 9){               
+            if (rep >= 6 && rep <= 9 && a == n){               
                 System.out.println("C'est pas mal.");
                 break;
             }
